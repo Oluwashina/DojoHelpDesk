@@ -16,6 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+To run the database locally, install json server globally with this command 'npm i json-server -g'
+
+Then you can start the database locally on a port by running this command 'json-server --watch --port 4000 ./_data/db.json'
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
